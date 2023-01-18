@@ -62,7 +62,7 @@ with open(budget_csv) as csvfile:
 
     print(f"Greatest Increase in Profits: {months[change.index(max(change))+1]} $ {max_increase}")
 
-    print(f"Greatest Increase in Profits: {months[change.index(max(change))+1]} $ {max_decrease}")
+    print(f"Greatest Decrease in Profits: {months[change.index(max(change))+1]} $ {max_decrease}")
 
 
 # Creat output.txt file
@@ -81,7 +81,7 @@ file.write("Average Change: $ -8311.105882352942\n")
 
 file.write("Greatest Increase in Profits: Aug-16 $ 1862002\n")
 
-file.write("Greatest Increase in Profits: Aug-16 $ -1825558\n")
+file.write("Greatest Decrease in Profits: Aug-16 $ -1825558\n")
 
 file.close()
 
